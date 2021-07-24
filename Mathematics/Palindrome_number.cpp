@@ -17,7 +17,7 @@ int main()
         num/=10;
     }
     if(rev==org)
-    cout<<"\n Palindrome";
+    cout<<"\n Palindromee";
     else
     cout<<"\n Not palindrome";
 }
