@@ -44,7 +44,8 @@ int main()
 }
 */
 
-// Euclidean optimized soltn
+// Euclidean optimized soltn 
+// Complexity : O(log(min(a,b)))
 
 int gcd(int a,int b)
 {
