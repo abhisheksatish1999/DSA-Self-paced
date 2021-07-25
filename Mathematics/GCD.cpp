@@ -22,6 +22,7 @@ int main()
 */
 //Euclidean Soltn
 
+/*
 int gcd(int a,int b)
 {
     while(a!=b)
@@ -41,4 +42,21 @@ int main()
     cout<<gcd(a,b);
     return(0);
 }
+*/
 
+// Euclidean optimized soltn
+
+int gcd(int a,int b)
+{
+    if(b==0)
+    return(a);
+    else
+    return(gcd(b,a%b));
+}
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    cout<<gcd(a,b);
+    return(0);
+}
